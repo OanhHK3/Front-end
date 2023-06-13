@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 1440px;
+}
+.nav{
+    margin: 23px 165px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.logo{
+    margin-right: 32px;
+}
+.navItem{
+    margin-left: 32px;
+}
+.badge{
+    margin: 16px 165px ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.badgeItem{
+    margin-left: 12.87px;
+}
+.circleWrapper{
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+    position: relative;
+}
+.circle{
+    width: 692px;
+    height: 692px;
+    background-color: #D6B1FF;
+    border-radius: 50%;
+    position:absolute
+}
+.text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
